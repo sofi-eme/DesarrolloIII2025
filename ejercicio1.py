@@ -7,3 +7,6 @@ class Vehiculo:
     def mostrarDatos(self):
         return(f"Marca: {self.marca}, Modelo{self.modelo}, Patente:{self.patente}, Kilometraje:{self.kilometraje}")
     
+    def __str__(self):
+        return "hola"
+    
