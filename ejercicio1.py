@@ -10,3 +10,5 @@ class Vehiculo:
     def __str__(self):
         return "hola"
     
+    def __str__(self):
+        return "chau"
