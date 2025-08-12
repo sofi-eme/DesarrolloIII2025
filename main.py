@@ -7,7 +7,7 @@ def mostrar_menu():
     print("3. Agregar documento a la cola")
     print("4. Imprimir documento")
     print("5. Ver estado de la impresora")
-    print("0. Salir")
+    print("6. Salir")
 
 def main():
     impresora = Impresora("HP", "DeskJet 2700", 10)
@@ -26,7 +26,7 @@ def main():
             print(impresora.imprimir())
         elif opcion == "5":
             print(impresora)
-        elif opcion == "0":
+        elif opcion == "6":
             print("Saliendo del programa...")
             break
         else:
