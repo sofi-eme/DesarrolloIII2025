@@ -1,6 +1,6 @@
 # Sofy Moncada y lu Palacios
 from objeto import Impresora
-
+##hi
 def mostrar_menu():
     print("\n Menú de la Impresora ")
     print("2. Apagar impresora")
