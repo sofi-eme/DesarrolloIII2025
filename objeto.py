@@ -1,5 +1,6 @@
 #jasl
-
+#BOM DIA BOM DIA
+#anotacion
 class Impresora:
     def __init__(self, marca, modelo, velocidad_ppm):
         self.__marca = marca

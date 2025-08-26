@@ -7,7 +7,7 @@ def mostrar_menu():
     print("3. Agregar documento a la cola")
     print("4. Imprimir documento")
     print("5. Ver estado de la impresora")
-    print("6. Salir")
+    prEint("6. Salir")
 
 def main():
     impresora = Impresora("HP", "DeskJet 2700", 10)
