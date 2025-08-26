@@ -1,3 +1,5 @@
+#jasl
+
 class Impresora:
     def __init__(self, marca, modelo, velocidad_ppm):
         self.__marca = marca
